@@ -10,7 +10,7 @@ public class CashbackHackServiceTest {
     @Test
     public void shouldCalculateRemainAmount2000() {
         int actual = service.remain(2000);
-        int expected = 0;
+        int expected = 1000;
 
         assertEquals(expected, actual);
     }
